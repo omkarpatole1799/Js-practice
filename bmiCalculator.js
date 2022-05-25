@@ -8,7 +8,7 @@ function bmiCalcualte(weight,height){
 //height should be in meters
 
 //calling the function
-var bmi= bmiCalcualte(65,1.9);
+var bmi= Math.round(bmiCalcualte(65,1.9));
 
 //printing the output
 console.log("Your bmi is: " + bmi);
