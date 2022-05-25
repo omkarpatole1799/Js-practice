@@ -24,3 +24,5 @@ function moveAndPutBeep(){
     putBeeper();
     turnRight();  
  }
+
+ 
