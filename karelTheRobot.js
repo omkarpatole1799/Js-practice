@@ -16,3 +16,11 @@ function moveFourTimes(){
     move();
 }
 
+//this function is to move the karel into diagonal form and put beeper
+function moveAndPutBeep(){
+    move();
+    turnLeft();
+    move();
+    putBeeper();
+    turnRight();  
+ }
