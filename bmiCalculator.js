@@ -14,6 +14,7 @@ function bmiCalcualte(weight,height){
     if (bmi > 24.9) {
         alert("Your BMI is: " + bmi + ", so you are overweight.");
     }
+    
     return bmi;  
 }
 
