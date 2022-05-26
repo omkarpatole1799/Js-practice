@@ -6,13 +6,13 @@ function bmiCalcualte(weight,height){
 
     //various conditions
     if (bmi<18.5){
-        alert("Your BMI is: " + bmi + ", so you are underwright.");
+        alert("Your BMI is: " + Math.round(bmi) + ", so you are underwright.");
     }
     if (bmi < 18.5 && bmi >24.9) {
-        alert("Your BMI is: " + bmi + ", so you have normal weight.");
+        alert("Your BMI is: " + Math.round(bmi) + ", so you have normal weight.");
     }
     if (bmi > 24.9) {
-        alert("Your BMI is: " + bmi + ", so you are overweight.");
+        alert("Your BMI is: " + Math.round(bmi) + ", so you are overweight.");
     }
     
     return bmi;  
