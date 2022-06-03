@@ -20,7 +20,6 @@ function fibonacchiGenerator(number) {
         console.log(c);
 
     }
-
 }
 
  
